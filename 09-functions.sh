@@ -13,10 +13,10 @@ VALIDATE(){
     #$1 --> it will receive the argument 1
     if [ $? -ne 0 ]
 then
-    echo -e"$2 ... $R FAILURE $N"
+    echo -e "$2 ... $R FAILURE $N"
     exit 1
 else
-    echo -e"$2 ...$G SUCCESS $N"
+    echo -e "$2 ...$G SUCCESS $N"
 fi    
 }
 USERID=$(id -u)
