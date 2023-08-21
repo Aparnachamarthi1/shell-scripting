@@ -34,4 +34,6 @@ do
 
  echo -e "message: $message"
 
- echo "$message" | mail -s "HIGH DISK USAGE" chamirthiaparna@gmail.com
+ #echo "$message" | mail -s "HIGH DISK USAGE" chamirthiaparna@gmail.com
+
+sh mail.sh chamirthiaparna@gmail.com "High Disk Usage" "$message" "DEVOPS TEAM" "High Disk Usage"
